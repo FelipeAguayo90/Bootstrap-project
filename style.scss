@@ -1,0 +1,9 @@
+@use 'base/variables' as *;
+@use 'base/colors';
+@use 'base/typography';
+@use 'layout/spacing';
+
+.container {
+    background-image: url('images/pexels-designecologist-1779487.jpg');
+    background-size: cover;
+}

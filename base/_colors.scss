@@ -1,0 +1,14 @@
+@use 'variables.scss' as *;
+
+body {
+    color: $main-font-clr;
+}
+
+.menu {
+    background-color: #F5F5F5;
+}
+
+// button.btn {
+//     background-color: $my-purple;
+//     columns: $main-font-clr;
+// }
