@@ -4,11 +4,34 @@ body {
     color: $main-font-clr;
 }
 
-.menu {
-    background-color: #F5F5F5;
+h1 span {
+    color: $my-purple;
 }
 
-// button.btn {
-//     background-color: $my-purple;
-//     columns: $main-font-clr;
+p {
+    color: rgba($color: #FFFFFF, $alpha: .6);
+}
+
+i {
+    @extend p;
+}
+
+div.menu {
+    background-color: #F5F5F5;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    // a {
+    //     color: #29313E;
+    // }
+}
+
+
+.customBtn {
+    background-color: $my-purple;
+    border: $my-purple;
+}
+
+// .offer {
+//     color: $my-purple;
 // }

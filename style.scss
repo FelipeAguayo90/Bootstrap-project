@@ -2,8 +2,14 @@
 @use 'base/colors';
 @use 'base/typography';
 @use 'layout/spacing';
+@use 'layout/flex';
 
-.container {
-    background-image: url('images/pexels-designecologist-1779487.jpg');
+
+.container-fluid {
+    background-image: url('images/pexels-danny-meneses-943096.jpg');
     background-size: cover;
+}
+
+.customBtn {
+    border-radius: 40px;
 }

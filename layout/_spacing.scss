@@ -1,0 +1,19 @@
+@use '../base/variables.scss' as *;
+
+.container-fluid {
+    height: 100vh;
+    
+}
+
+.duration {
+    border-right: 2px solid $main-font-clr;
+    border-left: 2px solid $main-font-clr;
+}
+
+// .main {
+//     height: 60%;
+// }
+
+// .menu {
+//     height: 10%;
+// }

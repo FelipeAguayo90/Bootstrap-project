@@ -2,11 +2,39 @@ body {
   color: #FFFFFF;
 }
 
-.menu {
-  background-color: #F5F5F5;
+h1 span {
+  color: #8B37FF;
 }
 
-.container {
-  background-image: url("images/pexels-designecologist-1779487.jpg");
+p, i {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+div.menu {
+  background-color: #F5F5F5;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.customBtn {
+  background-color: #8B37FF;
+  border: #8B37FF;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+.duration {
+  border-right: 2px solid #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+}
+
+.container-fluid {
+  background-image: url("images/pexels-danny-meneses-943096.jpg");
   background-size: cover;
+}
+
+.customBtn {
+  border-radius: 40px;
 }/*# sourceMappingURL=style.css.map */
