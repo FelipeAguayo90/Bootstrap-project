@@ -21,6 +21,11 @@ div.menu {
   border: #8B37FF;
 }
 
+@media (max-width: 576px) {
+  .responsive-content {
+    font-size: 6vw;
+  }
+}
 .container-fluid {
   height: 100vh;
 }
